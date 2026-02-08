@@ -67,11 +67,10 @@ Flow Construction
 ↓
 Graph Rendering (ReactFlow)
 
-Detailed architecture and design decisions are documented here:
-
-[Architecture & Design Document](./docs/architecture.md)
-
 ```
+
+Detailed architecture and design decisions are documented here:
+[Architecture & Design Document](./docs/architecture.md)
 
 ---
 
