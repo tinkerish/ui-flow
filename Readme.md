@@ -204,38 +204,18 @@ This is intended for local testing environments.
 
 ---
 
-## Deployment Philosophy
-
-This project is intentionally designed as a **local analysis tool**.
-
-The crawler operates on arbitrary websites and may generate a large
-number of requests. Deploying publicly would introduce additional
-concerns such as:
-
-- rate limiting and abuse prevention
-- crawling policies and robots.txt handling
-- infrastructure scaling
-- authentication security
-- cost management
-
-Since the primary goal is architectural analysis and visualization,
-the tool is meant to be run locally.
-
----
-
 ## Example Websites Tested
-
-- [https://react.dev](https://react.dev)
-- [https://vercel.com](https://vercel.com)
+- [https://fluffy-lamington-16f0b5.netlify.app/](https://fluffy-lamington-16f0b5.netlify.app/)
 - [https://simbian.ai](https://simbian.ai)
+- [https://foreai.co/](https://foreai.co/)
 
-(Screenshots included below)
+<img width="2938" height="1606" alt="image" src="https://github.com/user-attachments/assets/fd3897bf-b08a-42c6-9d5a-e4a17a96ed85" />
 
----
+<img width="2940" height="1602" alt="image" src="https://github.com/user-attachments/assets/9eea793d-ee42-4173-8fa8-7ff4b3fb5d90" />
 
-## Screenshots
+<img width="2940" height="1610" alt="image" src="https://github.com/user-attachments/assets/83186738-f42c-4d12-871a-55dd987c434e" />
 
-_Add screenshots here showing different website structures._
+
 
 ---
 
@@ -254,23 +234,5 @@ _Add screenshots here showing different website structures._
 - TypeScript
 - ReactFlow
 - Dagre (auto layout)
-
----
-
-## Goals
-
-- Understand unknown website structures quickly
-- Visualize navigation complexity
-- Infer routing patterns automatically
-- Build deterministic architecture analysis
-
----
-
-## Future Improvements
-
-- smarter flow inference
-- clustering by semantic similarity
-- large-site pagination handling
-- layout optimizations for very large graphs
 
 ---
