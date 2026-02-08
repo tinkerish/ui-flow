@@ -47,7 +47,7 @@ The system is **deterministic** and works purely from observed links.
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 ```
 
@@ -164,6 +164,7 @@ Automatic layouting ensures readability even for large sites.
 ```bash
 cd backend
 npm install
+npx playwright install   
 npm run dev
 ```
 
