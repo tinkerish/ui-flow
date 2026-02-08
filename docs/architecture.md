@@ -322,19 +322,8 @@ These are intentional trade-offs for deterministic analysis.
 
 ---
 
-## 8. Future Improvements
 
-Possible future extensions:
-
-- Edge weighting based on link frequency
-- Clustering by content type
-- Analytics integration for real flow detection
-- Interactive collapsing of subtrees
-- Page importance scoring
-
----
-
-## 9. Summary
+## 8. Summary
 
 The system converts a noisy crawl graph into:
 
