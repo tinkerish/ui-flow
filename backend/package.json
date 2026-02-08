@@ -1,0 +1,25 @@
+{
+  "name": "ui_flow_backend",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.x",
+    "@types/node": "^20.x",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.x",
+    "tsup": "^8.3.5",
+    "typescript": "^5.x",
+    "vitest": "^2.1.8"
+  }
+}
