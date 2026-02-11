@@ -16,8 +16,6 @@ export function insertSyntheticParents(groups: RouteGroup[]): RouteGroup[] {
   for (const [prefix, count] of prefixCount.entries()) {
     const depth = prefix.split("/").filter(Boolean).length;
 
-    if (depth > 1 && count < 2) continue;
-
     if (map.has(prefix)) continue;
 
     const segments = prefix.split("/").filter(Boolean);
