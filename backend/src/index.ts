@@ -45,7 +45,7 @@ app.post("/crawl", async (_req, res) => {
   const group = buildHierarchy(finalRouteGroup);
   const flowEdges = buildFlowEdges(group);
   const structureEdges = buildStructureEdges(group);
-  const edges = [...structureEdges, ...flowEdges];
+  const edges = [...structureEdges];
   const nodes = buildGraphNodes(group);
 
   res.json({
